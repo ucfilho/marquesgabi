@@ -143,3 +143,4 @@ def GLCM(p):
     #print(v)
     #print(v[n-2])
     GLCM[k,13]=v[n-2]**0.5 # maximal correlation coefficient
+  return GLCM
