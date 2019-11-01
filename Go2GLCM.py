@@ -23,7 +23,6 @@ def GLCM(p):
   Ncol=Size
   Pdif=[] 
   Psom=[]
-  p=pp[k,:].reshape(Size,Size)
   Soma=0
   px=[]
   py=[]
