@@ -21,6 +21,7 @@ def GLCM(p):
   Size=nrow-1
   Nrow=Size
   Ncol=Size
+  G=Ncol-1
   Pdif=[] 
   Psom=[]
   Soma=0
