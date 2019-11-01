@@ -8,7 +8,7 @@ Original file is located at
 """
 
 def GLCM(p):
-  
+  k=0
   nrow,ncol=p.shape()
   Size=nrow-1
   Nrow=Size
