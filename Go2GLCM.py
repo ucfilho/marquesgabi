@@ -17,7 +17,7 @@ from numpy import linalg as LA
 def GLCM(p):
   k=0
   GLCM=np.zeros((1, 14))  
-  nrow,ncol=p.shape()
+  nrow,ncol=p.shape
   Size=nrow-1
   Nrow=Size
   Ncol=Size
