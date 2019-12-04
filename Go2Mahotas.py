@@ -14,7 +14,7 @@ def Mahotas(ww,Size,Sub_Size,img_name):
   pw=np.zeros((row,col))
   for kk in range(row):
     pw[kk,:]=ww[kk].ravel()
-    p_foto=ww[kk,:].reshape(Size,Size)
+    p_foto=pw[kk,:].reshape(Size,Size)
     GLCM=[]
     glcm_haralick=[]
     x_ref=[]
