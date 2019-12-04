@@ -9,7 +9,8 @@ from scipy.signal import peak_prominences
 from scipy.signal import peak_widths
 
 def Mahotas(ww,Size,Sub_Size,Crop,img_name):  # ww represent the photo in question
-  row=len(img_name)
+  #row=len(img_name)
+  row=1 # unica foto escolhida
   col=Size*Size
   pw=np.zeros((row,col))
   for kk in range(row):
