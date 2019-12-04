@@ -1,3 +1,8 @@
+import numpy as np
+import cv2
+import zipfile
+from google.colab import files
+
 def BlackWhite(Transfere):
   file_name = zipfile.ZipFile(Transfere, 'r')
   file_name.extractall()
