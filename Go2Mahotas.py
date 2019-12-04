@@ -11,7 +11,7 @@ from scipy.signal import peak_widths
 def Mahotas(ww,Size,Sub_Size,img_name):
   row=len(img_name)
   col=Size*Size
-  pw=np.zeros((row,ncol))
+  pw=np.zeros((row,col))
   for kk in range(row):
     pw[kk,:]=ww[kk].ravel()
     p_foto=ww[kk,:].reshape(Size,Size)
