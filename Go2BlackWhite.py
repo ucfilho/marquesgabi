@@ -5,7 +5,7 @@ from google.colab import files
 
 
 
-def BlackWhite(Transfere):
+def BlackWhite(Transfere,Size):
 
   img_name=[]
   xw=[]
