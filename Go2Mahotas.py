@@ -8,12 +8,12 @@ from scipy.signal import find_peaks
 from scipy.signal import peak_prominences
 from scipy.signal import peak_widths
 
-def Mahotas(ww,Size,Sub_Size,Crop,img_name):
+def Mahotas(ww,Size,Sub_Size,Crop,img_name):  # ww represent the photo in question
   row=len(img_name)
   col=Size*Size
   pw=np.zeros((row,col))
   for kk in range(row):
-    pw[kk,:]=ww[kk].ravel()
+    pw[kk,:]=ww.ravel()
     p_foto=pw[kk,:].reshape(Size,Size)
     GLCM=[]
     glcm_haralick=[]
