@@ -3,16 +3,15 @@ import cv2
 import zipfile
 from google.colab import files
 
+
+
 def BlackWhite(Transfere):
-  file_name = zipfile.ZipFile(Transfere, 'r')
-  file_name.extractall()
-  # all images are load in variable ww...
-  FILE=Transfere
+
   img_name=[]
   xw=[]
   ww=[]
 
-  with zipfile.ZipFile(FILE, "r") as f:
+  with zipfile.ZipFile(Transfere, "r") as f:
     for name in f.namelist():
       img_name.append(name)
       #xw.append(cv2.imread(name))
