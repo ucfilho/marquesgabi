@@ -24,4 +24,4 @@ def BlackWhite(Transfere,Size):
   for i in range(nrow):
     ww.append(cv2.cvtColor(np.array(xw[i]), cv2.COLOR_BGR2GRAY))
     pw[i,:]=ww[i].ravel()
-  return ww
+  return ww,img_name
