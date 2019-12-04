@@ -8,7 +8,7 @@ from scipy.signal import find_peaks
 from scipy.signal import peak_prominences
 from scipy.signal import peak_widths
 
-def Mahotas(ww,Size,Sub_Size,img_name):
+def Mahotas(ww,Size,Sub_Size,Crop,img_name):
   row=len(img_name)
   col=Size*Size
   pw=np.zeros((row,col))
